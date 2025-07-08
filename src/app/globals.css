@@ -1,0 +1,42 @@
+/* @import "tailwindcss"; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --foreground: #FFFF;
+}
+
+body {
+  background: #000000;
+  color: #FFFFFF;
+  font-family: var(--font-dm-sans), 'Sans sherif';
+  font-weight: 400;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.stroked-text {
+  font-family: 'DM Sans';
+  font-size: 100px;
+  font-weight: 600;
+  letter-spacing: -7px;
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 0.24);
+  stroke-width: 1px;
+  paint-order: stroke fill;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.social-link:hover svg > .path{
+  fill: #FDF83A;
+}
