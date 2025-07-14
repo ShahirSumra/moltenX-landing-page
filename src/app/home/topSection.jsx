@@ -5,14 +5,15 @@ import Button from "../components/button";
 const TopSection = () => {
 
   return(
-    <section className="bg-black h-screen py-10 flex felx-col">
+    <section className="h-screen lg:py-10 pt-6 pb-10 flex felx-col">
       <SiteContainer className="flex flex-col justify-between gap-12 h-full">
-        <div className="bg-[url('/images/header-bg.png')] bg-[length:100%_100%] py-5 pl-[26px] pr-5 rounded-[20px] flex items-center justify-between">
+        <div className="bg-[url('/images/header-bg-mobile.png')] xl:bg-[url('/images/header-bg.png')] bg-[length:100%_100%] py-2.5 px-3 md:py-5 md:py-7 md:pl-[26px] md:pr-5 3xl:pl-[32px] 3xl:pr-6 rounded-lg lg:rounded-[18px] xl:rounded-[20px] 3xl:rounded-[22px] flex items-center justify-between">
           <Image 
             src="/images/logo.png"
             height={26}
             width={160}
-            className="h-[26px] w-[160px]"
+            className="h-5 w-auto lg:h-[26px] lg:w-[160px] 3xl:h-8 3xl:w-[196px]"
+            alt="MoltenX"
           />
 
           <Button>
@@ -21,12 +22,12 @@ const TopSection = () => {
         </div>
 
         <div>
-          <h1 className="text-top-title-2xl text-white">DeFi Powered <br /> <span className="text-yellow">Metal Markets</span></h1>
+          <h1 className="text-top-title xl:text-top-title-xl 2xl:text-top-title-2xl 3xl:text-top-title-3xl text-white">DeFi Powered <br /> <span className="text-yellow">Metal Markets</span></h1>
 
-          <div className="text-built-label bg-[linear-gradient(180deg,_#FFF_58.55%,_#8D3100_128.95%)] bg-clip-text text-transparent mt-[54px] mb-4">Built on</div>
+          <div className="text-built-label xl:text-built-label-xl 2xl:text-built-label-2xl 3xl:text-built-label-3xl bg-[linear-gradient(180deg,_#FFF_58.55%,_#8D3100_128.95%)] bg-clip-text text-transparent mt-[54px] mb-4">Built on</div>
 
-          <div className="bg-[url('/images/hyper-evm-bg.png')] bg-[length:100%_100%] py-4 px-[22px] w-fit rounded-[10px]">
-            <svg xmlns="http://www.w3.org/2000/svg" width="114" height="18" viewBox="0 0 114 18" fill="none">
+          <div className="bg-[url('/images/hyper-evm-bg.png')] bg-[length:100%_100%] py-3 px-5 2xl:py-4 2xl:px-[22px] 3xl:py-5 3xl:px-6 w-fit rounded-lg 2xl:rounded-[10px]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="114" height="18" viewBox="0 0 114 18" fill="none" className="h-3 xl:h-4 2xl:h-[18px] 3xl:h-[22px] w-auto">
               <g clipPath="url(#clip0_30_89132)">
                 <path d="M19.4316 7.14302C19.4493 8.73343 19.1154 10.2532 18.4595 11.7051C17.523 13.7727 15.2778 15.4631 13.2275 13.6637C11.5554 12.197 11.2451 9.21938 8.73993 8.7835C5.42521 8.38295 5.34545 12.2146 3.17994 12.6476C0.766284 13.1365 -0.0343315 9.08979 0.00112014 7.252C0.0365718 5.4142 0.526986 2.83128 2.62454 2.83128C5.0382 2.83128 5.20069 6.47447 8.2643 6.27714C11.2983 6.07097 11.3516 2.28052 13.3339 0.657725C15.0444 -0.744184 17.0563 0.283685 18.0637 1.97127C18.9972 3.53222 19.4079 5.36413 19.4286 7.14302H19.4316Z" fill="#50D2C1"/>
                 <path d="M28.5391 13.3616V1.0625H29.709V6.38151H36.9234V1.0625H38.0755V13.3616H36.9234V7.37109H29.709V13.3616H28.5391Z" fill="white"/>
@@ -49,6 +50,19 @@ const TopSection = () => {
 
         <div className="h-[82px] opacity-0 invisible"></div>
       </SiteContainer>
+
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
+      >
+        <source
+          src="/images/top-bg.mp4"
+          type="video/mp4"
+        />
+      </video>
     </section>
   )
 }
