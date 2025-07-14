@@ -1,6 +1,6 @@
 
 export const metaData = {
-  metadataBase: new URL("https://cido-partnership-landing-page.vercel.app/"),
+  metadataBase: new URL("https://molten-x-landing-page.vercel.app/"),
   title: 'MoltenX',
   description: '',
   keywords: [],
@@ -15,18 +15,18 @@ export const metaData = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: 'https://cido-partnership-landing-page.vercel.app',
+    url: 'https://molten-x-landing-page.vercel.app',
     title: 'MoltenX',
     description: '',
     siteName: 'MoltenX',
-    images: `https://cido-partnership-landing-page.vercel.app/Meta-image.jpg`,
+    images: ``,
   },
   twitter: {
     card: "summary_large_image",
     title: 'MoltenX',
     description: '',
     images: [
-      `https://cido-partnership-landing-page.vercel.app/Meta-image.jpg`,
+      ``,
     ],
     creator: "Shahir sumra",
   },
