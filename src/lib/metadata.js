@@ -1,8 +1,8 @@
 
 export const metaData = {
   metadataBase: new URL("https://molten-x-landing-page.vercel.app/"),
-  title: 'MoltenX',
-  description: '',
+  title: 'Molten X: Molten X: DeFi powered metals trading - Built using HyperEVM',
+  description: 'Molten X: Trade the best and most rare precious metals - directly on-chain. Fully decentralized and built using HyperEVM!',
   keywords: [],
   authors: [
     {
@@ -16,19 +16,19 @@ export const metaData = {
     type: "website",
     locale: "en_US",
     url: 'https://molten-x-landing-page.vercel.app',
-    title: 'MoltenX',
-    description: '',
+    title: 'Molten X: Molten X: DeFi powered metals trading - Built using HyperEVM',
+    description: 'Molten X: Trade the best and most rare precious metals - directly on-chain. Fully decentralized and built using HyperEVM!',
     siteName: 'MoltenX',
-    images: ``,
+    images: "https://molten-x-landing-page.vercel.app/meta.jpg",
   },
   twitter: {
     card: "summary_large_image",
-    title: 'MoltenX',
-    description: '',
+    title: 'Molten X: Molten X: DeFi powered metals trading - Built using HyperEVM',
+    description: 'Molten X: Trade the best and most rare precious metals - directly on-chain. Fully decentralized and built using HyperEVM!',
     images: [
-      ``,
+      "https://molten-x-landing-page.vercel.app/meta.jpg",
     ],
-    creator: "Shahir sumra",
+    creator: "MoltenX",
   },
 
   icons: {

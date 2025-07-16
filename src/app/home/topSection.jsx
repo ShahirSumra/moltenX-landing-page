@@ -1,8 +1,18 @@
 import Image from "next/image";
 import SiteContainer from "../components/sitecontainer";
 import Button from "../components/button";
+// import { useEffect, useRef } from "react";
+
 
 const TopSection = () => {
+
+  // const videoRef = useRef(null);
+
+  // useEffect(() => {
+  //   if (videoRef.current) {
+  //     videoRef.current.playbackRate = 1; // 0.5x speed (slower)
+  //   }
+  // }, []);
 
   return(
     <section className="h-screen lg:py-10 pt-6 pb-10 flex felx-col">
@@ -12,7 +22,7 @@ const TopSection = () => {
             src="/images/logo.png"
             height={26}
             width={160}
-            className="h-5 w-auto lg:h-[26px] lg:w-[160px] 3xl:h-8 3xl:w-[196px]"
+            className="h-5 w-auto xl:h-[26px] xl:w-[160px] 3xl:h-8 3xl:w-[196px]"
             alt="MoltenX"
           />
 
@@ -57,9 +67,10 @@ const TopSection = () => {
         loop
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
+        // ref={videoRef}
       >
         <source
-          src="/images/top-bg.mp4"
+          src="/images/top-video-2.mp4"
           type="video/mp4"
         />
       </video>

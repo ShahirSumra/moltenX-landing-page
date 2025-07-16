@@ -1,6 +1,7 @@
 import { metaData } from "@/lib/metadata";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
+import Loader from "./components/loader2";
 
 const DMSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${DMSans.variable} antialiased`}
       >
+        <Loader />
         {children}
       </body>
     </html>
