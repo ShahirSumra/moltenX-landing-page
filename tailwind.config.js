@@ -85,7 +85,7 @@ module.exports = {
         'input': ["12px", { lineHeight: "150%", fontWeight: 300, letterSpacing: '-0.36px' }],
         'input-2xl': ["14px", { letterSpacing: '-0.42px' }],
         'input-3xl': ["16px", { letterSpacing: '-0.48px' }],
-        'subscribe-button': ['12px', { lineHeight: '100%', fontWeight: 600, letterSpacing: '-0.84px' }],
+        'subscribe-button': ['14px', { lineHeight: '100%', fontWeight: 600, letterSpacing: '-0.84px' }],
         'subscribe-button-xl': ['14px', { letterSpacing: '-0.98px' }],
         'subscribe-button-2xl': ['16px', { letterSpacing: '-1.12px' }],
         'subscribe-button-3xl': ['18px', { letterSpacing: '-1.26px' }],
