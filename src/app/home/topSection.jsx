@@ -32,7 +32,7 @@ const TopSection = () => {
         </div>
 
         <div>
-          <h1 className="text-top-title xl:text-top-title-xl 2xl:text-top-title-2xl 3xl:text-top-title-3xl text-white">DeFi Powered <br /> <span className="text-yellow">Metal Markets</span></h1>
+          <h1 className="text-top-title xl:text-top-title-xl 2xl:text-top-title-2xl 3xl:text-top-title-3xl text-white">DeFi Powered <br /> <span className="text-green">Metal Markets</span></h1>
 
           <div className="text-built-label xl:text-built-label-xl 2xl:text-built-label-2xl 3xl:text-built-label-3xl bg-[linear-gradient(180deg,_#FFF_58.55%,_#8D3100_128.95%)] bg-clip-text text-transparent mt-[54px] mb-4">Built on</div>
 

@@ -21,12 +21,12 @@ module.exports = {
   		},
       colors: {
         'button-orange': '#8F3C00',
-        'yellow': '#FDF83A',
+        'green': '#2BF5AB',
         'description-gray': 'rgba(255, 255, 255, 0.60)',
         'copyright-gray': 'rgba(255, 255, 255, 0.49)'
       },
       backgroundColor: {
-        'button-bg': '#FFF471',
+        'button-bg': '#82FFD1',
       },
       backgroundImage: {
         'carousel-before': "linear-gradient(95deg, #000 40.44%, rgba(0, 0, 0, 0.00) 102.52%)",
@@ -94,8 +94,8 @@ module.exports = {
         'copyright-3xl': ["14px", { letterSpacing: '-0.42px' }],
       },
       boxShadow: {
-        'button-shadow': "0px 12px 20px 0px rgba(0, 0, 0, 0.30), 0px 4px 30px 0px rgba(225, 9, 1, 0.95) inset",
-        'button-hover': '0px 12px 20px 0px rgba(0, 0, 0, 0.30), 0px 0 16px 0px rgba(225, 9, 1, 0.95) inset'
+        'button-shadow': "0 12px 20px 0 rgba(0, 0, 0, 0.30), 0 4px 30px 0 rgba(0, 72, 45, 0.95) inset",
+        'button-hover': '0px 12px 20px 0px rgba(0, 0, 0, 0.30), 0px 0 16px 0px rgba(0, 72, 45, 0.95) inset'
       }
     },
   },

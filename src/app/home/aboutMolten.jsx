@@ -9,7 +9,7 @@ const AboutMoltenX = () => {
     <section className="pt-[100px] pb-[50px] 3xl:pt-[140px] 3xl:pb-[70px]">
       <SiteContainer className="flex flex-col item-center">
         <h2 className="text-title xl:text-title-xl 2xl:text-title-2xl 3xl:text-title-3xl text-center">
-          About <span className="text-yellow">MoltenX</span>
+          <span className="bg-[linear-gradient(180deg,_#FFF_58.55%,_#2BF5AB_128.95%)] bg-clip-text text-transparent">About</span> <span className="text-green">MoltenX</span>
         </h2>
         <p className="mb-11 xl:mb-[68px] mt-3.5 text-description xl:text-description-xl 2xl:text-description-2xl 3xl:text-description-3xl text-description-gray xl:max-w-[920px] 3xl:max-w-[1080px] text-center mx-auto">
           MoltenX transforms synthetic asset trading by harnessing the dynamic potential of precious and base metals within the flexibility of DeFi.  Effortlessly trade synthetic metal assets using crypto collateral on a secure, Web3-native platform, unlocking unmatched liquidity and opportunities in decentralized markets.
@@ -50,7 +50,7 @@ const AboutMoltenX = () => {
                   alt={item.label}
                 />
 
-                <div className="text-product-label 2xl:text-product-label-2xl 3xl:text-product-label-3xl text-yellow mb-2.5 mt-10">{item.label}</div>
+                <div className="text-product-label 2xl:text-product-label-2xl 3xl:text-product-label-3xl text-green mb-2.5 mt-10">{item.label}</div>
                 <div className="text-description-gray text-product-description 2xl:text-product-description-2xl 3xl:text-product-description-3xl text-center">{item.description}</div>
               </div>
             ))

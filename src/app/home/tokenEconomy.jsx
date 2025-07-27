@@ -4,10 +4,10 @@ import SiteContainer from "../components/sitecontainer";
 const TokenEconomy = () => {
 
   return(
-    <section className="py-[50px] 3xl:py-[140px]">
+    <section className="py-[50px] xl:py-[140px]">
       <SiteContainer className="flex flex-col item-center">
         <h2 className="text-title xl:text-title-xl 2xl:text-title-2xl 3xl:text-title-3xl text-center">
-          <span className="text-yellow">$MOLT</span> Token Economy
+          <span className="text-green">$MOLT</span> <span className="bg-[linear-gradient(180deg,_#FFF_58.55%,_#2BF5AB_128.95%)] bg-clip-text text-transparent">Token Economy</span>
         </h2>
         <p className="mb-[68px] mt-3.5 text-description xl:text-description-xl 2xl:text-description-2xl 3xl:text-description-3xl text-description-gray max-w-[618px] text-center mx-auto">
           $MOLT’s community friendly tokenomics exclude insiders, VCs, and whales, ensuring community-driven control and equitable opportunities for all.
