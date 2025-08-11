@@ -11,20 +11,21 @@ const Subscribe = () => {
         </svg>
 
         <div className="text-subscribe 2xl:text-subscribe-2xl 3xl:text-subscribe-3xl mt-[60px] mb-2.5 3xl:mb-3 bg-[linear-gradient(180deg,_#FFF_58.55%,_#FDF83A_128.95%)] bg-clip-text text-transparent">
-          Subscribe to our newsletter
+          Sign up for presale whitelist
         </div>
 
         <div className="flex gap-2">
-          <input 
+          {/* <input 
             type="email"
             placeholder="Subscribe to our newsletter"
             className="py-2.5 px-3.5 3xl:py-3 3xl:px-4 w-[220px] xl:w-[210px] 3xl:w-[260px] border border-input-border focus:outline-none placeholder:text-description text-input 2xl:text-input-2xl 3xl:text-input-3xl text-white bg-transparent rounded-md"
-          />
+          /> */}
 
           <Button
+            onClick={() => window.open("https://docs.google.com/forms/d/16AsjOLIzlaBLz_PxEhU-O829rwH1VKS8jkrzPnLODus/edit", "_blank")}
             className="text-subscribe-button xl:text-subscribe-button-xl 2xl:text-subscribe-button-2xl 3xl:text-subscribe-button-3xl !text-[#000000]"
           >
-            Subscribe
+            Presale
           </Button>
         </div>
       </SiteContainer>

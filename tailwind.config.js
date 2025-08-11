@@ -102,3 +102,12 @@ module.exports = {
   plugins: [],
 }
 
+
+
+// 1.⁠ ⁠Add Google Tag Manager scripts
+// 2.⁠ ⁠Add TG link: https://t.me/moltenxdefi
+// 3.⁠ ⁠Add X link: https://x.com/MoltenXDefi
+// 4.⁠ ⁠Remove Discord button
+// 5.⁠ ⁠Add Zealy link: https://zealy.io/cw/moltenx
+// 6.⁠ ⁠Remove email subscribe widget 
+// 7.⁠ ⁠Instead add 'Sign up for presale whitelist' text and 'Presale' button. Link button to https://docs.google.com/forms/d/16AsjOLIzlaBLz_PxEhU-O829rwH1VKS8jkrzPnLODus/edit
